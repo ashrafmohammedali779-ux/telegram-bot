@@ -1,7 +1,7 @@
 <?php
 // الإعدادات الأساسية
-define("API_KEY", "لتوكن هناا");
-define("ADMIN_ID", 5806409403);
+define("API_KEY", "8278594406:AAHmCjL8k6wfpZvxeNwGyllZti7fBqOPvW4");
+define("ADMIN_ID", 8579608026);
 
 // مواقع SMM المتعددة
 $smm_sites = [
@@ -27,15 +27,15 @@ $smm_sites = [
 
 // قنوات البوت
 $bot_channels = [
-    'main_channel' => '',
-    'orders_channel' => '',
-    'support_channel' => '',
-    'activations_channel' => '' // ← إضافة جديدة
+    'main_channel' => 'https://t.me/+z910V5MmWtthYmU0',
+    'orders_channel' => 'https://t.me/+SipGvLIr7q05ZTY8',
+    'support_channel' => 'https://t.me/+YrpcXCO5j6Y1NWY0',
+    'activations_channel' => 'https://t.me/+zasI-zHFmG9mZmI0' // ← إضافة جديدة
 ];
 
 // قناة الاشتراك الإجباري
-$private_channel_link = "";
-$private_channel_id = "";
+$private_channel_link = "https://t.me/+z910V5MmWtthYmU0";
+$private_channel_id = "https://t.me/+YrpcXCO5j6Y1NWY0";
 
 // ملفات البيانات
 $servicesFile1 = "services_site1.json";
